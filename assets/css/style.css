@@ -7,7 +7,7 @@ Last change: 27/07/2016
 
 -------------- */
 
-/* ------- STYLE CSS CONTENTS ------- 
+/* ------- STYLE CSS CONTENTS -------
 
 	- 1) Basic styling
 	- 2) Header
@@ -19,7 +19,7 @@ Last change: 27/07/2016
 		- 4.4) post slideshow
 		- 4.5) post video
 		- 4.6) post share
-		- 4.7) post author 
+		- 4.7) post author
 		- 4.8) post navigation
 		- 4.9) post social icons
 		- 4.10) post comments
@@ -36,7 +36,7 @@ Last change: 27/07/2016
 	- 10) Single blog page
 	- 11) Contact page
 	- 12) Features page
-	
+
  ------------------------------------ */
 
 /* --- 1) BASIC STYLING --- */
@@ -1373,7 +1373,7 @@ body.boxed .featured-narrow {
   overflow: hidden;
 }
 .featured-slide {
-  height: 600px;
+  height: 690px;
   max-width: 100%;
   background-size: cover;
   background-position: center;
