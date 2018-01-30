@@ -38,6 +38,10 @@ Last change: 27/07/2016
 	- 12) Features page
 
  ------------------------------------ */
+/* --- 1) Custom Styles --- */
+#map {
+  height: 690px;
+}
 
 /* --- 1) BASIC STYLING --- */
 
@@ -1373,7 +1377,7 @@ body.boxed .featured-narrow {
   overflow: hidden;
 }
 .featured-slide {
-  height: 690px;
+  height: 600px;
   max-width: 100%;
   background-size: cover;
   background-position: center;
