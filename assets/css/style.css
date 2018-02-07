@@ -46,7 +46,7 @@ Last change: 27/07/2016
 .video-section {
   position: relative;
   overflow: hidden;
-  max-height: 900px;
+  max-height: 91vh;
 }
 
 .video-overlay {
@@ -64,6 +64,20 @@ Last change: 27/07/2016
   width: 100%    !important;
   height: auto   !important;
   margin-bottom: -5px;
+}
+
+/* --- 1) Custom Font --- */
+@font-face {
+  font-family: "AvenidaStd";
+  src: url("../fonts/AvenidaStdRegular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/AvenidaStdRegular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/AvenidaStdRegular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/AvenidaStdRegular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/AvenidaStdRegular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/AvenidaStdRegular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/AvenidaStdRegular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* --- 1) BASIC STYLING --- */
@@ -107,6 +121,12 @@ a {
 .font-montserrat-reg {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+}
+
+.font-avenida-reg {
+  font-family: "AvenidaStd";
+  font-weight: 400;
+  display: inline-block;
 }
 
 .font-opensans-reg {
@@ -1430,18 +1450,18 @@ body.boxed .featured-slide .container {
   -ms-transform: translateY(-50%);
 }
 .featured-slide-content h2 {
-  font-size: 36px;
+  font-size: 4rem;
   color: #fff;
   line-height: 40px;
   letter-spacing: 1.5px;
   font-weight: 400;
   margin-bottom: 15px;
-  text-transform: uppercase;
 }
+
 .featured-slide-content p {
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
-  line-height: 23px;
+  line-height: 30px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
