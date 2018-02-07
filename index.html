@@ -3,7 +3,7 @@
 <head>
 
 <!-- page title -->
-<title>Intent - Minimal Portfolio Template</title>
+<title>970 Guides - Speedflying Instruction</title>
 
 <!-- theme css -->
 <link href="assets/css/structure.css" rel="stylesheet" type="text/css" />
@@ -14,12 +14,12 @@
 <link href="assets/js/lib/owl-carousel/owl.carousel.css" rel="stylesheet">
 
 <!-- author -->
-<meta name="author" content="Lucid Themes">
+<meta name="author" content="ALIUS">
 <!-- responsive meta tag -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="UTF-8">
 <meta name="twitter:widgets:theme" content="dark">
-<meta property="og:title" content="Ron Wayne Winters - Stained Glass" />
+<meta property="og:title" content="970 Guides" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="images/home-portfolio/1-LL.jpg" />
 <meta property="og:description" content="Custom Stained Glass"/>
@@ -28,17 +28,18 @@
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
-<!-- Analytics -->
-<!-- <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76687801-9"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
 
-ga('create', 'UA-76687801-8', 'auto');
-ga('send', 'pageview');
+gtag("config", "UA-76687801-9");
+</script>
 
-</script> -->
 
 </head>
 
@@ -88,7 +89,7 @@ ga('send', 'pageview');
 								<li class="menu-item menu-item-has-children">
 									<a href="index-2.html">Banner image<span class="sub-drop-icon sub-second-drop fa fa-angle-down"></span></a>
 									<ul class="sub-menu sub-second-tier">
-										<li><a href="index-2-wide.html">Full width</a></li>
+										<li><a href="index.html">Full width</a></li>
 									</ul>
 								</li>
 								<li><a href="index-3.html">Portfolio Only</a></li>
@@ -192,56 +193,27 @@ ga('send', 'pageview');
 
 </header>
 
+
 <div id="main-content">
 
-	<!-- featured section - slideshow -->
-	<section class="featured-section">
-		<div id="featured-slideshow-outer" class="carousel-outer">
+	<!-- featured section - banner image -->
+	<section class="video-section">
+				<div class="video-overlay">
 
-			<!-- previous slide button -->
-			<span class="slideshow-btn previous-slide-btn fa fa-angle-left"></span>
+				</div>
 
-			<!-- featured slideshow -->
-			<div id="featured-slideshow" class="carousel" data-autoplay="true" data-autoplay-speed="" data-animation-in="fadeIn" data-animation-out="fadeOut">
-
-				<!-- slide example - left aligned -->
-				<div class="featured-slide" style="background-image:url('assets/img/featured_placeholder_1.jpg');">
-					<div class="container">
-						<div class="featured-slide-content featured-left">
-							<h2 class="font-montserrat-reg">Welcome to Intent</h2>
-							<p>Nunc laoreet ac neque mattis efficitur. In eu lacus erat. Ut tincidunt luctus sapien, sed fermentum eros malesuada dignissim. Maecenas id ligula nisl. Curabitur a justo leo.</p>
-						</div>
+			<!-- <div class="featured-slide" style="background-image:url('assets/img/featured_placeholder_1.jpg');"> -->
+				<video class="video" width="100%" autoplay loop muted poster='assets/img/featured_placeholder_1.jpg'>
+					 <source src='self-promo-ski.mp4' type='video/mp4' />
+					 <!-- <source src='bobbytakeoff.webm' type='video/webm' /> -->
+				</video>
+				<div class="container">
+					<div class="featured-slide-content featured-left">
+						<h2 class="font-montserrat-reg">Welcome to Intent</h2>
+						<!-- <p>Nunc laoreet ac neque mattis efficitur. In eu lacus erat. Ut tincidunt luctus sapien, sed fermentum eros malesuada dignissim. Maecenas id ligula nisl. Curabitur a justo leo.</p> -->
 					</div>
 				</div>
 
-				<!-- slide example -right aligned -->
-				<div class="featured-slide" style="background-image:url('assets/img/featured_placeholder_2.jpg');">
-					<div class="container">
-						<div class="featured-slide-content featured-right">
-							<h2 class="font-montserrat-reg">Portfolio</h2>
-							<p>Nunc laoreet ac neque mattis efficitur. In eu lacus erat. Ut tincidunt luctus sapien, sed fermentum eros malesuada dignissim. Maecenas id ligula nisl. Curabitur a justo leo.</p>
-							<a href="portfolio-1.html" class="primary-button font-montserrat-reg hov-bk">View Portfolio</a>
-						</div>
-					</div>
-				</div>
-
-				<!-- slide example - center aligned -->
-				<div class="featured-slide" style="background-image:url('assets/img/featured_placeholder_3.jpg');">
-					<div class="container">
-						<div class="featured-slide-content featured-center">
-							<h2 class="font-montserrat-reg">Services</h2>
-							<p>Nunc laoreet ac neque mattis efficitur. In eu lacus erat. Ut tincidunt luctus sapien, sed fermentum eros malesuada dignissim. Maecenas id ligula nisl. Curabitur a justo leo.</p>
-							<a href="services-1.html" class="primary-button font-montserrat-reg hov-bk">View Services</a>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-			<!-- next slide button -->
-			<span class="slideshow-btn next-slide-btn fa fa-angle-right"></span>
-
-		</div>
 	</section>
 
 
@@ -542,13 +514,6 @@ ga('send', 'pageview');
 		</div>
 	</section>
 
-	<section class="featured-section">
-		<div class="featured-banner-outer">
-					<div class="featured-slide" id="map"></div>
-		</div>
-
-	</section>
-
 </div>
 
 
@@ -563,7 +528,6 @@ ga('send', 'pageview');
 				<!-- footer social icons -->
 				<ul id="footer-social">
 					<li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					<li><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
 				</ul>
 
@@ -588,10 +552,7 @@ ga('send', 'pageview');
 </footer>
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/maps.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKmrn5lHoVvoNPSuVbphG2y6T5yU7cmoE&callback=initMap"
-async defer></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/lib/owl-carousel/owl.carousel.min.js"></script>
 <script type="text/javascript" src="assets/js/lib/jquery.sharrre.min.js"></script>
 <script type="text/javascript" src="assets/js/lib/isotope/isotope.js"></script>
