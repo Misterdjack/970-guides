@@ -1,5 +1,3 @@
-// Custom function to slow down video
-document.querySelector('video').playbackRate = .75;
 
 jQuery(function($) {
 
