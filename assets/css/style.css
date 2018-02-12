@@ -1662,11 +1662,11 @@ body.boxed .featured-right {
   color: #888888;
   line-height: 22px;
 }
-.testimonial-slide p:last-child {
+.testimonial-slide p {
   font-size: 15px;
   line-height: 21px;
   letter-spacing: 0.5px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .testimonial-slide .company {
   color: #c7c7c7;
