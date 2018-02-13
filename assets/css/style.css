@@ -248,13 +248,13 @@ body.boxed #site-header.fixed-header {
 }
 
 #site-logo {
-  width: 120px;
-  height: 20px;
+  width: 115px;
+  height: 55px;
   float: left;
-  background-image: url("../img/intent_logo.png");
+  background-image: url("../img/970-logo@0,5x.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-top: 25px;
+  margin-top: 7px;
   display: block;
 }
 #header-nav {
