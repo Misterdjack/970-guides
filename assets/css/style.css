@@ -90,7 +90,7 @@ height: 100%;
 position: absolute;
 }
 
-.about-me-section {
+.about-me-section, .image-block-section {
   background-image: url('../patterns/foggy_birds.png');
 }
 
