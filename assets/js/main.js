@@ -167,7 +167,7 @@ jQuery(function($) {
 				position: new google.maps.LatLng(lat_lng[0], lat_lng[1]),
 				clickable: false,
 				map: map,
-				title: 'Lucid Themes',
+				title: '970 Guides',
 				icon: {
 					url: 'assets/img/map_pin.png',
 					size: new google.maps.Size(27, 37)
