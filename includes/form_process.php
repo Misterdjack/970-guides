@@ -14,10 +14,10 @@
 		if (filter_var($contact_email, FILTER_VALIDATE_EMAIL)) {
 	
 			// name to appear in the from field in the email
-			$from = "Intent Theme <email@yourdomain.com>";
+			$from = "970 Guides <email@yourdomain.com>";
 			
 			// email address to receive the enquiry - CHANGE THIS TO YOUR DESIRED EMAIL ADDRESS
-			$to = "example@example.com";
+			$to = "earthhomeproductions@gmail.com";
 
 			// headers of the email sent
 			$headers = "From:" . $from . "\r\n";
@@ -25,7 +25,7 @@
 			$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 			
 			// subject line to appear in inbox
-			$subject = "New website enquiry"; 
+			$subject = "New enquiry from 970 Guides"; 
 			
 			// message contents
 			$message = "<html><body>";
